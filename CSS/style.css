@@ -1,0 +1,141 @@
+@import url("https:fonts.googlepis.com/css?family=Ruda: 400, 700|Syncopate: 400");
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+.homepage-iteration-3 {
+    background-color: #84A873;
+    display: flex;
+    height: 832px;
+    padding: 70px 59px;
+    width: 1280px;
+}
+.overlap-group4 {
+    align-items: center;
+    gap: 80px;
+    height: 691px;
+    justify-content: flex-end;
+    min-width: 1162px;
+    padding: 114px 19px;
+}
+.homepage-iteration-3 .overlap {
+    background-color: #Ffffff;
+    display: flex;
+}
+.flex-col {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 6px;
+    min-height: 403px;
+    width: 589px;
+}
+p.kasandraf {
+    color: black;
+    font-family: 'Ruda', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 13px;
+    min-height: 76px;
+    width: 507px;
+}
+.smedia {
+    display: inline-block;
+}
+.socials {
+    display: inline-block;
+    height: 24px;
+    margin-left: 13px;
+    margin-top: 40px;
+    padding-right: 15px;
+    width: auto;
+}
+.empathy-in-every-cl {
+    color: black;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 15px;
+    min-height: 156px;
+    width: 576px;
+}
+.primary-nav {
+    display: inline-block;
+    margin-top: 44px;
+    min-width: auto;
+}
+.overlap-group {
+    align-items: flex-end;
+    text-align: center;
+    border: 1px solid;
+    border-color: #84A873;
+    border-radius: 20px;
+    height: 48px;
+    justify-content: flex-end;
+    margin-left: 20px;
+    min-width: 50px;
+    padding: 1px 9px;
+}
+.link {
+    cursor: pointer;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 34px;
+    width: 93px;
+}
+.overlap-group2 {
+    align-items: flex-end;
+    text-align: center;
+    border: 1px solid;
+    border-color: #84A873;
+    border-radius: 20px;
+    height: 48px;
+    justify-content: flex-end;
+    min-width: 50px;
+    padding: 1px 8px;
+}
+.overlap-group3 {
+    align-items: flex-end;
+    border: 1px solid;
+    border-color: #84A873;
+    border-radius: 20px;
+    height: 48px;
+    margin-left: 20px;
+    min-width: 50px;
+    padding: 2px 32px;
+}
+.work {
+    cursor: pointer;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 34px;
+    width: 45px;
+}
+.overlap-group1 {
+    align-items: flex-end;
+    text-align: center;
+    border: 1px solid;
+    border-color: #84A873;
+    border-radius: 20px;
+    height: 48px;
+    margin-left: 20px;
+    min-width: 50px;
+    padding: 1px 15px;
+}
+.place {
+    cursor: pointer;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 34px;
+    width: 83px;
+}
+.kasHEIC {
+    height: 450px;
+  
+    width: auto;
+}
