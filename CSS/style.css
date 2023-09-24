@@ -143,7 +143,7 @@ p.kasandraf {
 
 /* About Me */ 
 
-.primarynav {
+.navbar {
     left: 554px;
     letter-spacing: 0;
     line-height: normal;
@@ -151,28 +151,39 @@ p.kasandraf {
     top: 22px;
     width: 59px;
 }
-.primarynav2{
+.navbar2 {
     left: 0;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 0;
+    top: 21px;
     width: 140px;
 }
-.primarynav3{
+.navbar3 {
     cursor: pointer;
     left: 135px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 0;
+    top: 21px;
     width: 49px;
 }
-.primarynav4{
-    
+.navbar4 {
+    cursor: pointer;
+    left: 887px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 21px;
+    width: 88px;
 }
-.primarynav4{
-    
+.navbar5 {
+    left: 1009px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 20px;
+    width: 79px;
 }
 .overlap-group4 {
     align-items: center;
@@ -209,12 +220,186 @@ p.kasandraf {
     background-color: #46905b;
     border-radius: 8px/6.5px;
     height: 13px;
-    left: 247px;
+    left: 165px;
     position: absolute;
-    top: 211px;
+    top: 235px;
     width: 16px;
+}
+.smedia {
+    display: inline-block;
+    height: 24px;
+    margin-left: 13px;
+    margin-top: 40px;
+    padding-right: 15px;
+    width: auto;
+    position: absolute;
+    right: 50px;
 }
 
 /* Work */ 
 
+.navbar {
+    left: 554px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 22px;
+    width: 59px;
+}
+.navbar2 {
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 21px;
+    width: 140px;
+}
+.navbar3 {
+    cursor: pointer;
+    left: 135px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 21px;
+    width: 49px;
+}
+.navbar4 {
+    cursor: pointer;
+    left: 887px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 21px;
+    width: 88px;
+}
+.navbar5 {
+    left: 1009px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 20px;
+    width: 79px;
+}
+.overlap-group4 {
+    align-items: center;
+    gap: 80px;
+    height: 691px;
+    justify-content: flex-end;
+    min-width: 1162px;
+    padding: 114px 19px;
+}
+.title {
+    color: black;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+    left: 74px;
+    letter-spacing: 0px;
+    line-height: normal;
+    position: absolute;
+    top: 191px;
+    white-space: nowrap;
+    width: 189px;
+}
+.ellipse-1 {
+    background-color: #46905b;
+    border-radius: 8px/6.5px;
+    height: 13px;
+    left: 165px;
+    position: absolute;
+    top: 235px;
+    width: 16px;
+}
+.smedia {
+    display: inline-block;
+    height: 24px;
+    margin-left: 13px;
+    margin-top: 40px;
+    padding-right: 15px;
+    width: auto;
+    position: absolute;
+    right: 50px;
+}
+
 /* Contact */ 
+
+.navbar {
+    left: 554px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 22px;
+    width: 59px;
+}
+.navbar2 {
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 21px;
+    width: 140px;
+}
+.navbar3 {
+    cursor: pointer;
+    left: 135px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 21px;
+    width: 49px;
+}
+.navbar4 {
+    cursor: pointer;
+    left: 887px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 21px;
+    width: 88px;
+}
+.navbar5 {
+    left: 1009px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 20px;
+    width: 79px;
+}
+.overlap-group4 {
+    align-items: center;
+    gap: 80px;
+    height: 691px;
+    justify-content: flex-end;
+    min-width: 1162px;
+    padding: 114px 19px;
+}
+.title {
+    color: black;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+    left: 74px;
+    letter-spacing: 0px;
+    line-height: normal;
+    position: absolute;
+    top: 191px;
+    white-space: nowrap;
+    width: 189px;
+}
+.ellipse-1 {
+    background-color: #46905b;
+    border-radius: 8px/6.5px;
+    height: 13px;
+    left: 165px;
+    position: absolute;
+    top: 235px;
+    width: 16px;
+}
+.smedia {
+    display: inline-block;
+    height: 24px;
+    margin-left: 13px;
+    margin-top: 40px;
+    padding-right: 15px;
+    width: auto;
+    position: absolute;
+    right: 50px;
+}
