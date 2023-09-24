@@ -1,3 +1,4 @@
+/* Home */ 
 @import url("https:fonts.googlepis.com/css?family=Ruda: 400, 700|Syncopate: 400");
 
 .hidden,
@@ -139,3 +140,81 @@ p.kasandraf {
   
     width: auto;
 }
+
+/* About Me */ 
+
+.primarynav {
+    left: 554px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 22px;
+    width: 59px;
+}
+.primarynav2{
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 140px;
+}
+.primarynav3{
+    cursor: pointer;
+    left: 135px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 49px;
+}
+.primarynav4{
+    
+}
+.primarynav4{
+    
+}
+.overlap-group4 {
+    align-items: center;
+    gap: 80px;
+    height: 691px;
+    justify-content: flex-end;
+    min-width: 1162px;
+    padding: 114px 19px;
+}
+.title {
+    color: black;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+    left: 74px;
+    letter-spacing: 0px;
+    line-height: normal;
+    position: absolute;
+    top: 191px;
+    white-space: nowrap;
+    width: 189px;
+}
+.aboutme {
+    color: black;
+    font-family: 'Ruda', sans-serif;
+    left: 74px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 282px;
+    width: 782px;
+    height: 15px;
+    text-align: left;
+}
+.ellipse-1 {
+    background-color: #46905b;
+    border-radius: 8px/6.5px;
+    height: 13px;
+    left: 247px;
+    position: absolute;
+    top: 211px;
+    width: 16px;
+}
+
+/* Work */ 
+
+/* Contact */ 
