@@ -249,6 +249,7 @@ p.kasandraf {
     width: 59px;
 }
 .navbar2 {
+    display: flex;
     left: 0;
     letter-spacing: 0;
     line-height: normal;
@@ -447,6 +448,7 @@ width: 240px;
     width: 59px;
 }
 .navbar2 {
+    display: flex;
     left: 0;
     letter-spacing: 0;
     line-height: normal;
