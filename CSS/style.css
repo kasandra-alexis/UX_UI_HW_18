@@ -1,6 +1,11 @@
 /* Home */ 
 @import url("https:fonts.googlepis.com/css?family=Ruda: 400, 700|Syncopate: 400");
 
+body{
+    background-color: #84A873;
+}
+
+
 .hidden,
 .hidden * {
     pointer-events: none;
@@ -17,7 +22,7 @@
     align-items: center;
     gap: 80px;
     height: 691px;
-    justify-content: flex-end;
+    justify-content: center;
     min-width: 1162px;
     padding: 114px 19px;
 }
@@ -153,7 +158,7 @@ p.kasandraf {
 }
 .navbar2 {
     float: right;
-    left: 0;
+    left: 650px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -163,7 +168,7 @@ p.kasandraf {
 .navbar3 {
     float: right;
     cursor: pointer;
-    left: 135px;
+    left: 785px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -187,14 +192,6 @@ p.kasandraf {
     top: 20px;
     width: 79px;
 }
-.overlap-group4 {
-    align-items: center;
-    gap: 80px;
-    height: 691px;
-    justify-content: flex-end;
-    min-width: 1162px;
-    padding: 114px 19px;
-}
 .title {
     color: black;
     font-family: 'Ruda', sans-serif;
@@ -206,6 +203,7 @@ p.kasandraf {
     top: 191px;
     white-space: nowrap;
     width: 189px;
+    padding-left: 30px;
 }
 .aboutme {
     color: black;
@@ -217,10 +215,12 @@ p.kasandraf {
     width: 782px;
     height: 15px;
     text-align: left;
+    padding-left: 30px;
 }
 .ellipse-1 {
     background-color: #46905b;
     border-radius: 8px/6.5px;
+    margin-left: 30px; 
     height: 13px;
     left: 165px;
     position: absolute;
@@ -231,97 +231,16 @@ p.kasandraf {
     display: inline-block;
     height: 24px;
     margin-left: 13px;
-    margin-top: 40px;
     padding-right: 15px;
     width: auto;
-    position: absolute;
     right: 50px;
 }
 
 /* Work */ 
+.projectContainer{
+    display:flex;
+}
 
-.navbar {
-    left: 554px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 22px;
-    width: 59px;
-}
-.navbar2 {
-    display: flex;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 21px;
-    width: 140px;
-}
-.navbar3 {
-    cursor: pointer;
-    left: 135px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 21px;
-    width: 49px;
-}
-.navbar4 {
-    cursor: pointer;
-    left: 887px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 21px;
-    width: 88px;
-}
-.navbar5 {
-    left: 1009px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 20px;
-    width: 79px;
-}
-.overlap-group4 {
-    align-items: center;
-    gap: 80px;
-    height: 691px;
-    justify-content: flex-end;
-    min-width: 1162px;
-    padding: 114px 19px;
-}
-.title {
-    color: black;
-    font-family: 'Ruda', sans-serif;
-    font-weight: 400;
-    left: 74px;
-    letter-spacing: 0px;
-    line-height: normal;
-    position: absolute;
-    top: 191px;
-    white-space: nowrap;
-    width: 189px;
-}
-.ellipse-1 {
-    background-color: #46905b;
-    border-radius: 8px/6.5px;
-    height: 13px;
-    left: 165px;
-    position: absolute;
-    top: 235px;
-    width: 16px;
-}
-.smedia {
-    display: inline-block;
-    height: 24px;
-    margin-left: 13px;
-    margin-top: 40px;
-    padding-right: 15px;
-    width: auto;
-    position: absolute;
-    right: 50px;
-}
 .project1 {
 align-items: center;
 letter-spacing: 0;
@@ -353,255 +272,37 @@ width: 240px;
     width: 398px;
 }
 
-/* Contact */ 
-
-.navbar {
-    left: 554px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 22px;
-    width: 59px;
-}
-.navbar2 {
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 21px;
-    width: 140px;
-}
-.navbar3 {
-    cursor: pointer;
-    left: 135px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 21px;
-    width: 49px;
-}
-.navbar4 {
-    cursor: pointer;
-    left: 887px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 21px;
-    width: 88px;
-}
-.navbar5 {
-    left: 1009px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 20px;
-    width: 79px;
-}
-.overlap-group4 {
-    align-items: center;
-    gap: 80px;
-    height: 691px;
-    justify-content: flex-end;
-    min-width: 1162px;
-    padding: 114px 19px;
-}
-.title {
-    color: black;
-    font-family: 'Ruda', sans-serif;
-    font-weight: 400;
-    left: 74px;
-    letter-spacing: 0px;
-    line-height: normal;
-    position: absolute;
-    top: 191px;
-    white-space: nowrap;
-    width: 189px;
-}
-.ellipse-1 {
-    background-color: #46905b;
-    border-radius: 8px/6.5px;
-    height: 13px;
-    left: 165px;
-    position: absolute;
-    top: 235px;
-    width: 16px;
+.projectContainer h2{
+    color: olivedrab;
 }
 .smedia {
     display: inline-block;
     height: 24px;
-    margin-left: 13px;
-    margin-top: 40px;
+    margin-left: 913px;
     padding-right: 15px;
     width: auto;
-    position: absolute;
     right: 50px;
 }
+
+/* Contact */ 
+
+
 
 /* Gourmade */ 
 
-.navbar {
-    left: 554px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 22px;
-    width: 59px;
-}
-.navbar2 {
-    display: flex;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 21px;
-    width: 140px;
-}
-.navbar3 {
-    cursor: pointer;
-    left: 135px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 21px;
-    width: 49px;
-}
-.navbar4 {
-    cursor: pointer;
-    left: 887px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 21px;
-    width: 88px;
-}
-.navbar5 {
-    left: 1009px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 20px;
-    width: 79px;
-}
-.overlap-group4 {
-    align-items: center;
-    gap: 80px;
-    height: 691px;
-    justify-content: flex-end;
-    min-width: 1162px;
-    padding: 114px 19px;
-}
-.title {
-    color: black;
-    font-family: 'Ruda', sans-serif;
-    font-weight: 400;
-    left: 74px;
-    letter-spacing: 0px;
-    line-height: normal;
-    position: absolute;
-    top: 191px;
-    white-space: nowrap;
-    width: 189px;
-}
-.ellipse-1 {
-    background-color: #46905b;
-    border-radius: 8px/6.5px;
-    height: 13px;
-    left: 165px;
-    position: absolute;
-    top: 235px;
-    width: 16px;
-}
-.smedia {
-    display: inline-block;
-    height: 24px;
-    margin-left: 13px;
-    margin-top: 40px;
-    padding-right: 15px;
-    width: auto;
-    position: absolute;
-    right: 50px;
-}
+
 
 /* GirlsRockDC */ 
 
-.navbar {
-    left: 554px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 22px;
-    width: 59px;
-}
-.navbar2 {
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 21px;
-    width: 140px;
-}
-.navbar3 {
-    cursor: pointer;
-    left: 135px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 21px;
-    width: 49px;
-}
-.navbar4 {
-    cursor: pointer;
-    left: 887px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 21px;
-    width: 88px;
-}
-.navbar5 {
-    left: 1009px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 20px;
-    width: 79px;
-}
-.overlap-group4 {
-    align-items: center;
-    gap: 80px;
-    height: 691px;
-    justify-content: flex-end;
-    min-width: 1162px;
-    padding: 114px 19px;
-}
-.title {
-    color: black;
-    font-family: 'Ruda', sans-serif;
-    font-weight: 400;
-    left: 74px;
-    letter-spacing: 0px;
-    line-height: normal;
-    position: absolute;
-    top: 191px;
-    white-space: nowrap;
-    width: 189px;
-}
-.ellipse-1 {
-    background-color: #46905b;
-    border-radius: 8px/6.5px;
-    height: 13px;
-    left: 165px;
-    position: absolute;
-    top: 235px;
-    width: 16px;
-}
-.smedia {
-    display: inline-block;
-    height: 24px;
-    margin-left: 13px;
-    margin-top: 40px;
-    padding-right: 15px;
-    width: auto;
-    position: absolute;
-    right: 50px;
+@media screen and (max-width: 480px) {
+
+    .projectContainer h2{
+        color: olive;
+    }
+
+    .portfolio .rectangle {
+        height: 376px;
+        width: 398px;
+    }
+
 }
