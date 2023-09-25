@@ -1,4 +1,4 @@
-/* Home */ 
+/* Index */ 
 @import url("https:fonts.googlepis.com/css?family=Ruda: 400, 700|Syncopate: 400");
 
 body{
@@ -41,11 +41,10 @@ body{
 p.kasandraf {
     color: black;
     font-family: 'Ruda', sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 400;
     letter-spacing: 0;
     line-height: normal;
-    margin-left: 13px;
     min-height: 76px;
     width: 507px;
 }
@@ -146,7 +145,22 @@ p.kasandraf {
   
     width: auto;
 }
-
+.overlap-group1 a:hover{
+    background-color: #46905B;
+    color: black;
+}
+.overlap-group2 a:hover{
+    background-color: #46905B;
+    color: black;
+}
+.overlap-group a:hover{
+    background-color: #46905B;
+    color: black;
+}
+.primary-nav a:hover{
+    background-color: #46905B;
+    color: black;
+}
 /* About Me */ 
 
 .navbar {
@@ -239,7 +253,7 @@ p.kasandraf {
 
 /* Work */ 
 .projectContainer{
-    display:flex;
+    display: flex;
 }
 
 .project1 {
@@ -300,6 +314,15 @@ width: 240px;
 
 
 /* GirlsRockDC */ 
+.overview {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: 132px;
+    left: 125px;
+    min-height: 38px;
+    white-space: nowrap;
+}
+
 
 @media screen and (max-width: 480px) {
 
@@ -308,8 +331,19 @@ width: 240px;
     }
 
     .portfolio .rectangle {
-        height: 376px;
+        height: 276px;
         width: 398px;
     }
-
+    .overlap-group a:hover{
+        background-color: #46905B;
+        color: black;
+    }
+    .overlap-group2 a:hover{
+        background-color: #46905B;
+        color: black;
+    }
+    .overlap-group3 a:hover{
+        background-color: #46905B;
+        color: black;
+    }
 }
