@@ -250,13 +250,20 @@ margin-top: 10px;
 min-height: 53px;
 width: 240px;
 }
+.Gourmade {
+    height: 287px;
+    left: 726px;
+    object-fit: cover;
+    
+}
 .grdc2-1 {
     height: 287px;
-    left: 6px;
+    left: 726px;
     object-fit: cover;
-    position: absolute;
     top: 44px;
     width: 391px;
+    border: 2px solid;
+    border-color: black;
 }
 .rectangle-11 {
     background-color: #Ffffff;
