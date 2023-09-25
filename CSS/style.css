@@ -49,6 +49,7 @@ p.kasandraf {
     min-height: 76px;
     width: 507px;
 }
+
 .smedia {
     display: inline-block;
 }
@@ -285,7 +286,6 @@ width: 240px;
 .smedia {
     display: inline-block;
     height: 24px;
-    margin-left: 913px;
     padding-right: 15px;
     width: auto;
     right: 50px;
