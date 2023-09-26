@@ -293,12 +293,13 @@ width: 240px;
 
 
 /* GirlsRockDC */ 
-.text {
+.casestudy {
     display: flex;
     letter-spacing: 0;
     font-family: 'Ruda', sans-serif;
+    margin-bottom: -250px;
+    padding-left: 35px;
 }
-
 @media screen and (max-width: 480px) {
 
     .projectContainer h2{
