@@ -90,19 +90,6 @@ p.kasandraf {
     color: black;
     text-decoration: none;
 }
-.overlap-group {
-    align-items: flex-end;
-    text-align: center;
-    border: 2px solid;
-    border-color: #84A873;
-    border-radius: 20px;
-    height: 48px;
-    justify-content: flex-end;
-    margin-left: 20px;
-    min-width: 50px;
-    padding: 1px 9px;
-    color: black;
-}
 .link {
     cursor: pointer;
     letter-spacing: 0;
@@ -110,47 +97,12 @@ p.kasandraf {
     min-height: 34px;
     width: 93px;
 }
-.overlap-group2 {
-    align-items: flex-end;
-    text-align: center;
-    border: 2px solid;
-    border-color: #84A873;
-    border-radius: 20px;
-    height: 48px;
-    justify-content: flex-end;
-    min-width: 50px;
-    padding: 1px 8px;
-    color: black;
-}
-.overlap-group3 {
-    align-items: flex-end;
-    border: 2px solid;
-    border-color: #84A873;
-    border-radius: 20px;
-    height: 48px;
-    margin-left: 20px;
-    min-width: 50px;
-    padding: 2px 32px;
-    color: black;
-}
 .work {
     cursor: pointer;
     letter-spacing: 0;
     line-height: normal;
     min-height: 34px;
     width: 45px;
-}
-.overlap-group1 {
-    align-items: flex-end;
-    text-align: center;
-    border: 2px solid;
-    border-color: #84A873;
-    border-radius: 20px;
-    height: 48px;
-    margin-left: 20px;
-    min-width: 50px;
-    padding: 1px 15px;
-    color: black;
 }
 .place {
     cursor: pointer;
@@ -285,13 +237,65 @@ width: 240px;
 }
 
 /* Contact */ 
-
-
+.name {
+    font-family: 'Ruda', sans-serif;
+}
+.email {
+    font-family: 'Ruda', sans-serif;
+}
+input[type=text], select {
+    font-family: 'Ruda', sans-serif;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    font-family: 'Ruda', sans-serif;
+    width: 100%;
+    background-color: #46905b;
+    color: White;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    font-family: 'Ruda', sans-serif;
+    background-color: #AFD69D;
+    color: white
+  }
 
 /* Gourmade */ 
 
+/* Test */
 
-
+.card {
+    font-family: 'Ruda', sans-serif;
+    background-color: white;
+}
+.btn-primary {
+    font-family: 'Ruda', sans-serif;
+    border-radius: 20px;
+    background-color: #46905b;
+    border-color: #ccc;
+    color: white;
+}
+.btn-primary a:hover{
+    background-color: #84A873;
+    color: white;
+}
+.Gourmade {
+    align-items: center;
+}
+.grdc2-1 {
+    align-items: center;
+}
 /* GirlsRockDC */ 
 .casestudy {
     display: flex;
