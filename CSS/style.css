@@ -253,7 +253,36 @@ width: 240px;
     width: auto;
     right: 50px;
 }
+.ProtoPersona {
+    align-items: center;
+}
+.GirlsRock {
+    align-items: center;
+}
+.UserPersona1 {
+    align-items: center;
+}
+.UserPersona2 {
+    align-items: center;
+}
+.ValueProp {
+    align-items: center;
+}
+.UserSc {
+    align-items: center;
+}
+.Storybaord {
+    align-items: center;
+}
+.Sitekey {
+    align-items: center;
+}
+.grcs {
+    align-items: center;
+    color: black;
+    font-family: 'Ruda', sans-serif;
 
+}
 /* Contact */ 
 .conactcontainer {
     margin-top: 20px;
