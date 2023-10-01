@@ -20,13 +20,14 @@ body{
 }
 .background {
     align-items: center;
-    gap: 80px;
     height: 691px;
     justify-content: center;
     min-width: 1162px;
     padding: 114px 19px;
+    margin-top: 20px;
+    gap: 20px;
 }
-.homepage-iteration-3 .overlap {
+homepage-iteration-3 .overlap {
     background-color: #Ffffff;
     display: flex;
 }
@@ -125,7 +126,7 @@ p.kasandraf {
 .navbar {
     position: absolute;
     top: 50px;
-    right: 137px;
+    right: 177px;
 }
 .navbar a {
     color: black;
@@ -136,17 +137,27 @@ p.kasandraf {
     text-decoration: none;
     margin-right: 40px;
 }
+.homepage-iteration-3 .overlap {
+    background-color: #Ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.background {
+    align-items: center;
+    height: 691px;
+    justify-content: center;
+    min-width: 1162px;
+    padding: 114px 19px;
+    margin-top: 20px;
+}
 .title {
     color: black;
     font-family: 'Ruda', sans-serif;
     font-weight: 400;
-    left: 74px;
     letter-spacing: 0px;
+    display: flex;
     line-height: normal;
-    position: absolute;
-    top: 191px;
     white-space: nowrap;
-    width: 189px;
     padding-left: 30px;
 }
 .aboutme {
@@ -164,13 +175,19 @@ p.kasandraf {
 .ellipse-1 {
     background-color: #46905b;
     border-radius: 8px/6.5px;
-    margin-left: 80px; 
+    padding-left: 10px;
+    margin-top: 23px;
     height: 13px;
-    left: 165px;
-    position: absolute;
-    top: 235px;
+    display: flex;
     width: 16px;
 }
+.titlecontainer {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    margin-left: 50px;
+}
+
 .smedia {
     display: inline-block;
     height: 24px;
@@ -197,6 +214,7 @@ width: 240px;
 .Gourmade {
     height: 287px;
     left: 726px;
+    width: 391px;
     object-fit: cover;
     gap: 80px;
     text-decoration: none;
@@ -237,11 +255,17 @@ width: 240px;
 }
 
 /* Contact */ 
+.conactcontainer {
+    margin-top: 20px;
+}
 .name {
     font-family: 'Ruda', sans-serif;
 }
 .email {
     font-family: 'Ruda', sans-serif;
+}
+.message {
+    height: 35px;
 }
 input[type=text], select {
     font-family: 'Ruda', sans-serif;
@@ -251,6 +275,7 @@ input[type=text], select {
     border: 3px solid #ccc;
     border-radius: 20px;
     box-sizing: border-box;
+    width: 100%;
   }
   
   input[type=submit] {
@@ -263,6 +288,7 @@ input[type=text], select {
     border: none;
     border-radius: 20px;
     cursor: pointer;
+    width: 100%;  
   }
   
   input[type=submit]:hover {
@@ -274,10 +300,16 @@ input[type=text], select {
 /* Gourmade */ 
 
 /* Test */
-
+.cardcontainer {
+    display:flex;
+    margin-top: 50px;
+    flex-direction: row;
+}
 .card {
     font-family: 'Ruda', sans-serif;
     background-color: white;
+    align-items: center;
+    margin-right: 10px;
 }
 .btn-primary {
     font-family: 'Ruda', sans-serif;
@@ -286,16 +318,16 @@ input[type=text], select {
     border-color: #ccc;
     color: white;
 }
-.btn-primary a:hover{
+.btn-primary:hover{
     background-color: #84A873;
     color: white;
+    border-color: #ccc;;
 }
-.Gourmade {
-    align-items: center;
+.card-body {
+    text-align: center;
 }
-.grdc2-1 {
-    align-items: center;
-}
+
+
 /* GirlsRockDC */ 
 .casestudy {
     display: flex;
